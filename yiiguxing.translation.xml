@@ -1,0 +1,32 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="Annotation for handling exceptions in specific handler classes and/or * handler methods." />
+      <item value="Number of milliseconds to delay before the first execution of a" />
+      <item value="Execute the annotated method with a fixed period in milliseconds between the" />
+      <item value="Container annotation that aggregates several {@link KafkaListener} annotations." />
+      <item value="Maximum number of records returned in a single call to poll()." />
+      <item value="* The bin count threshold for using a tree rather than list for a * bin. Bins are converted to trees when adding an element to a * bin with at least this many nodes. The value must be greater * than 2 and should be at least 8 to mesh with assumptions in * tree removal about conversion back to plain bins upon * shrinkage." />
+      <item value="Note that this works only with single-value emitting listeners. Otherwise, * all subsequent signals are dropped. You may have to add {@code client.removeListener(this);} * to the listener's body. * &lt;p&gt; * &lt;b&gt;2) callback handler&lt;/b&gt;&lt;br&gt; * This requires a similar instantiation pattern such as above, but usually the * successful completion and error are separated into different methods. * In addition, the legacy API may or may not support some cancellation mechanism." />
+      <item value="Convenience annotation for clients to enable Hystrix circuit breakers (specifically). * Use this (optionally) in case you want discovery and know for sure that it is Hystrix * you want. All it does is turn on circuit breakers and let the autoconfiguration find * the Hystrix classes if they are available (i.e. you need Hystrix on the classpath as * well)." />
+      <item value="Configuration Properties to indicate which Ribbon configurations should be eagerly" />
+      <item value="Enables the use of the deprecated Ribbon RestClient" />
+      <item value="Return the {@code Environment} for this application context in configurable * form, allowing for further customization." />
+      <item value="* Identifies the distribution of the application. * &lt;p&gt; * Might be null in which case the release distribution will not be sent with the event." />
+      <item value="Identifies the distribution of the application." />
+      <item value="5" />
+      <item value="data: mongodb: uri: mongodb://aisp_iam_device_dev_rw:LPocDxe0nXZUfbjO@192.168.46.31:27017/aisp_iam_device_dev" />
+      <item value="* Properties for instances of {@link HystrixThreadPool}. * &lt;p&gt; * Default implementation of methods uses Archaius (https://github.com/Netflix/archaius) * * Note a change in behavior in 1.5.7. Prior to that version, the configuration for 'coreSize' was used to control * both coreSize and maximumSize. This is a fixed-size threadpool that can never give up an unused thread. In 1.5.7+, * the values can diverge, and if you set coreSize &lt; maximumSize, threads can be given up (subject to the keep-alive * time) * * It is OK to leave maximumSize unset using any version of Hystrix. If you do, then maximum size will default to * core size and you'll have a fixed-size threadpool. * * If you accidentally set maximumSize &lt; coreSize, then maximum will be raised to coreSize * (this prioritizes keeping extra threads around rather than inducing threadpool rejections)" />
+      <item value="* Define a fallback factory for the specified Feign client interface. The fallback * factory must produce instances of fallback classes that implement the interface * annotated by {@link FeignClient}. The fallback factory must be a valid spring * bean." />
+      <item value="Fallback class for the specified Feign client interface. The fallback class must * implement the interface annotated by this annotation and be a valid spring bean." />
+      <item value="Abstract class for defining different behavior or implementations for concurrency related aspects of the system with default implementations." />
+      <item value="execution" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="18" />
+        <entry key="ENGLISH" value="19" />
+      </map>
+    </option>
+  </component>
+</application>

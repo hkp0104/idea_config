@@ -1,0 +1,13 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern="composer.lock" type="PLAIN_TEXT" />
+      <mapping pattern="phpunit.xml.dist" type="PLAIN_TEXT" />
+      <mapping pattern="Dockerfile2" type="PLAIN_TEXT" />
+      <mapping pattern="DockerFile" type="PLAIN_TEXT" />
+      <removed_mapping pattern="phpunit.xml.dist" approved="true" type="XML" />
+      <removed_mapping pattern="composer.lock" approved="true" type="JSON" />
+    </extensionMap>
+  </component>
+</application>
