@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="asyncComplete an asynchronous resource cleanup invoked if the resource closure terminates with onComplete" />
+      <item value="* @param resourceSupplier a {@link Publisher} that &quot;generates&quot; the resource, * subscribed for each subscription to the main sequence * @param resourceClosure a factory to derive a {@link Mono} from the supplied resource * @param asyncComplete an asynchronous resource cleanup invoked if the resource closure terminates with onComplete * @param asyncError an asynchronous resource cleanup invoked if the resource closure terminates with onError. * The terminating error is provided to the {@link BiFunction} * @param asyncCancel an asynchronous resource cleanup invoked if the resource closure is cancelled. * When {@code null}, the {@code asyncComplete} path is used instead. * @param &lt;T&gt; the type of elements emitted by the resource closure, and thus the main sequence * @param &lt;D&gt; the type of the resource object * @return a new {@link Flux} built around a &quot;transactional&quot; resource, with several * termination path triggering asynchronous cleanup sequences * @see #usingWhen(Publisher, Function, Function, Function)" />
+      <item value="derive" />
       <item value="Handle the case where no {@linkplain org.springframework.http.converter.HttpMessageConverter message converters} * were found that were acceptable for the client (expressed via the {@code Accept} header. * &lt;p&gt;The default implementation sends an HTTP 406 error and returns an empty {@code ModelAndView}. * Alternatively, a fallback view could be chosen, or the HttpMediaTypeNotAcceptableException * could be rethrown as-is." />
       <item value="An {@link AbstractHandlerMethodExceptionResolver} that resolves exceptions * through {@code @ExceptionHandler} methods. * * &lt;p&gt;Support for custom argument and return value types can be added via * {@link #setCustomArgumentResolvers} and {@link #setCustomReturnValueHandlers}. * Or alternatively to re-configure all argument and return value types use * {@link #setArgumentResolvers} and {@link #setReturnValueHandlers(List)}." />
       <item value="* This filter returns the onMatch result if the level in the LogEvent is the same or more specific * than the configured level and the onMismatch value otherwise. For example, if the ThresholdFilter * is configured with Level ERROR and the LogEvent contains Level DEBUG then the onMismatch value will * be returned since ERROR events are more specific than DEBUG. *" />
@@ -27,8 +30,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="21" />
-        <entry key="ENGLISH" value="22" />
+        <entry key="CHINESE" value="24" />
+        <entry key="ENGLISH" value="25" />
       </map>
     </option>
   </component>
