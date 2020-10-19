@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="vehicle" />
       <item value="asyncComplete an asynchronous resource cleanup invoked if the resource closure terminates with onComplete" />
       <item value="* @param resourceSupplier a {@link Publisher} that &quot;generates&quot; the resource, * subscribed for each subscription to the main sequence * @param resourceClosure a factory to derive a {@link Mono} from the supplied resource * @param asyncComplete an asynchronous resource cleanup invoked if the resource closure terminates with onComplete * @param asyncError an asynchronous resource cleanup invoked if the resource closure terminates with onError. * The terminating error is provided to the {@link BiFunction} * @param asyncCancel an asynchronous resource cleanup invoked if the resource closure is cancelled. * When {@code null}, the {@code asyncComplete} path is used instead. * @param &lt;T&gt; the type of elements emitted by the resource closure, and thus the main sequence * @param &lt;D&gt; the type of the resource object * @return a new {@link Flux} built around a &quot;transactional&quot; resource, with several * termination path triggering asynchronous cleanup sequences * @see #usingWhen(Publisher, Function, Function, Function)" />
       <item value="derive" />
