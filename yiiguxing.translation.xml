@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Evaluate the expression in a specified context which can resolve references * to properties, methods, types, etc. The type of the evaluation result is * expected to be of a particular class and an exception will be thrown if it * is not and cannot be converted to that type. * @param context the context in which to evaluate the expression * @param desiredResultType the class the caller would like the result to be * @return the evaluation result * @throws EvaluationException if there is a problem during evaluation" />
       <item value="Evaluate the expression in a specified context which can resolve references * to properties, methods, types, etc. The type of the evaluation result is * expected to be of a particular class and an exception will be thrown if it * is not and cannot be converted to that type. * @param context the context in which to evaluate the expression * @param desiredResultType the class the caller would like the result to be * @return the evaluation result * @throws EvaluationException if there is a problem during evaluation */" />
       <item value="the number of fields that were removed from the hash, not including specified but non existing fields." />
       <item value="specified" />
@@ -34,8 +35,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="27" />
-        <entry key="ENGLISH" value="28" />
+        <entry key="CHINESE" value="28" />
+        <entry key="ENGLISH" value="29" />
       </map>
     </option>
   </component>
