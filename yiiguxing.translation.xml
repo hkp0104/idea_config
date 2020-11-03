@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="/** * Resolves a method parameter into an argument value from a given request. * A {@link ModelAndViewContainer} provides access to the model for the * request. A {@link WebDataBinderFactory} provides a way to create * a {@link WebDataBinder} instance when needed for data binding and * type conversion purposes. * @param parameter the method parameter to resolve. This parameter must * have previously been passed to {@link #supportsParameter} which must * have returned {@code true}. * @param mavContainer the ModelAndViewContainer for the current request * @param webRequest the current request * @param binderFactory a factory for creating {@link WebDataBinder} instances * @return the resolved argument value, or {@code null} if not resolvable * @throws Exception in case of errors with the preparation of argument values */" />
+      <item value="Strategy interface for resolving method parameters into argument values in * the context of a given request." />
       <item value="Evaluate the expression in a specified context which can resolve references * to properties, methods, types, etc. The type of the evaluation result is * expected to be of a particular class and an exception will be thrown if it * is not and cannot be converted to that type. * @param context the context in which to evaluate the expression * @param desiredResultType the class the caller would like the result to be * @return the evaluation result * @throws EvaluationException if there is a problem during evaluation" />
       <item value="Evaluate the expression in a specified context which can resolve references * to properties, methods, types, etc. The type of the evaluation result is * expected to be of a particular class and an exception will be thrown if it * is not and cannot be converted to that type. * @param context the context in which to evaluate the expression * @param desiredResultType the class the caller would like the result to be * @return the evaluation result * @throws EvaluationException if there is a problem during evaluation */" />
       <item value="the number of fields that were removed from the hash, not including specified but non existing fields." />
@@ -35,8 +37,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="28" />
-        <entry key="ENGLISH" value="29" />
+        <entry key="CHINESE" value="30" />
+        <entry key="ENGLISH" value="31" />
       </map>
     </option>
   </component>
