@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="/** * Get the first annotation of the specified {@code annotationType} within * the annotation hierarchy &lt;em&gt;above&lt;/em&gt; the supplied {@code element}, * merge that annotation's attributes with &lt;em&gt;matching&lt;/em&gt; attributes from * annotations in lower levels of the annotation hierarchy, and synthesize * the result back into an annotation of the specified {@code annotationType}. * &lt;p&gt;{@link AliasFor @AliasFor} semantics are fully supported, both * within a single annotation and within the annotation hierarchy. * @param element the annotated element * @param annotationType the annotation type to find * @return the merged, synthesized {@code Annotation}, or {@code null} if not found * @since 4.2 * @see #findMergedAnnotation(AnnotatedElement, Class) */" />
+      <item value="/** * Find the first annotation of the specified {@code annotationType} within * the annotation hierarchy &lt;em&gt;above&lt;/em&gt; the supplied {@code element}, * merge that annotation's attributes with &lt;em&gt;matching&lt;/em&gt; attributes from * annotations in lower levels of the annotation hierarchy, and synthesize * the result back into an annotation of the specified {@code annotationType}. * &lt;p&gt;{@link AliasFor @AliasFor} semantics are fully supported, both * within a single annotation and within the annotation hierarchy. * &lt;p&gt;This method follows &lt;em&gt;find semantics&lt;/em&gt; as described in the * {@linkplain AnnotatedElementUtils class-level javadoc}. * @param element the annotated element * @param annotationType the annotation type to find * @return the merged, synthesized {@code Annotation}, or {@code null} if not found * @since 4.2 * @see #findAllMergedAnnotations(AnnotatedElement, Class) * @see #findMergedAnnotationAttributes(AnnotatedElement, String, boolean, boolean) * @see #getMergedAnnotationAttributes(AnnotatedElement, Class) */" />
       <item value="/** * Resolves a method parameter into an argument value from a given request. * A {@link ModelAndViewContainer} provides access to the model for the * request. A {@link WebDataBinderFactory} provides a way to create * a {@link WebDataBinder} instance when needed for data binding and * type conversion purposes. * @param parameter the method parameter to resolve. This parameter must * have previously been passed to {@link #supportsParameter} which must * have returned {@code true}. * @param mavContainer the ModelAndViewContainer for the current request * @param webRequest the current request * @param binderFactory a factory for creating {@link WebDataBinder} instances * @return the resolved argument value, or {@code null} if not resolvable * @throws Exception in case of errors with the preparation of argument values */" />
       <item value="Strategy interface for resolving method parameters into argument values in * the context of a given request." />
       <item value="Evaluate the expression in a specified context which can resolve references * to properties, methods, types, etc. The type of the evaluation result is * expected to be of a particular class and an exception will be thrown if it * is not and cannot be converted to that type. * @param context the context in which to evaluate the expression * @param desiredResultType the class the caller would like the result to be * @return the evaluation result * @throws EvaluationException if there is a problem during evaluation" />
@@ -37,8 +39,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="30" />
-        <entry key="ENGLISH" value="31" />
+        <entry key="CHINESE" value="32" />
+        <entry key="ENGLISH" value="33" />
       </map>
     </option>
   </component>
